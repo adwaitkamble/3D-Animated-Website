@@ -1,0 +1,36 @@
+<!-- Simple SVG placeholder for Latte -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D2820;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D1810;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="latteGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D2B48C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B7355;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad2)"/>
+  
+  <!-- Glass cup outline -->
+  <path d="M 280 200 L 300 450 L 500 450 L 520 200 Z" fill="none" stroke="#CCCCCC" stroke-width="4" opacity="0.6"/>
+  
+  <!-- Latte layers -->
+  <path d="M 305 440 L 495 440 L 515 250 L 285 250 Z" fill="url(#latteGrad)"/>
+  
+  <!-- Milk foam top -->
+  <ellipse cx="400" cy="250" rx="115" ry="30" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Latte art heart -->
+  <path d="M 400 240 Q 380 230 370 240 Q 360 250 370 265 L 400 290 L 430 265 Q 440 250 430 240 Q 420 230 400 240 Z" 
+        fill="#8B4513" opacity="0.7"/>
+  
+  <!-- Shadow  -->
+  <ellipse cx="400" cy="480" rx="120" ry="25" fill="#000000" opacity="0.2"/>
+  
+  <!-- Text label -->
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#F5E6D3" text-anchor="middle">Latte</text>
+</svg>

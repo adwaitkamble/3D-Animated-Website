@@ -1,0 +1,38 @@
+<!-- Simple SVG placeholder for Cappuccino -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Brown gradient background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4D3428;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D1810;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="cupGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#E8D5C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C9B8A0;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="foamGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="400" cy="380" rx="150" ry="40" fill="#8B6F47" opacity="0.3"/>
+  <path d="M 250 380 Q 250 320 280 280 L 520 280 Q 550 320 550 380 Z" fill="url(#cupGrad)" stroke="#A89080" stroke-width="3"/>
+  
+  <!-- Foam -->
+  <ellipse cx="400" cy="280" rx="135" ry="45" fill="url(#foamGrad)"/>
+  
+  <!-- Cocoa powder dots -->
+  <circle cx="380" cy="275" r="3" fill="#8B4513" opacity="0.7"/>
+  <circle cx="420" cy="280" r="2.5" fill="#8B4513" opacity="0.7"/>
+  <circle cx="400" cy="285" r="2" fill="#8B4513" opacity="0.7"/>
+  <circle cx="395" cy="270" r="2.5" fill="#8B4513" opacity="0.6"/>
+  <circle cx="415" cy="272" r="2" fill="#8B4513" opacity="0.6"/>
+  
+  <!-- Text label -->
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#F5E6D3" text-anchor="middle">Cappuccino</text>
+</svg>
